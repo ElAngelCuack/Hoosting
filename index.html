@@ -35,4 +35,72 @@
         <p>&copy; 2025 Mi Página Web. Todos los derechos reservados.</p>
     </footer>
 </body>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 5px;
+    }
+    #reloj {
+        font-size: 1em;
+        color: #333;
+    }
+</style>
+</head>
+
+<div id="reloj"></div>
+
+<script>
+    function actualizarReloj() {
+        const ahora = new Date();
+        const opcionesFecha = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const fecha = ahora.toLocaleDateString('es-ES', opcionesFecha);
+        const hora = ahora.toLocaleTimeString('es-ES');
+
+        document.getElementById('reloj').innerHTML = `${fecha}, ${hora}`;
+    }
+
+    setInterval(actualizarReloj, 1000); // Actualiza cada segundo
+    actualizarReloj(); // Llama a la función una vez al cargar la página
+</script>
+
+<svg viewBox="0 0 100 100" width="1980" height="50" style="background:#ffe87f">
+    
+    <div><img style="float:left;" src="https://media.istockphoto.com/id/165942883/es/vector/micr%C3%B3fono-vintage-semitono.jpg?s=612x612&w=0&k=20&c=YlLAxJ_cFbHQPEO8mVw5AHxMusrAMk_9Mp_NmLLKqIM=" width="50" height="50" /><h1>NOTICIAS</h1></center></div>
+</svg>
+<body bgcolor="#fff4c4"></body>
+<P></P>
+<search>
+    <center><form method="get" action="/search">
+        <input type="search" name="search-text" />
+        <button style="background-color:bisque">Buscar</button>
+    </form></center>
+</search>
+<p></p>
+<body>
+    <center><h3><p style="color: red;">Muere una persona sobre la carretera<br> Tampico-Valles por atropellamiento</p></center></h3>
+    <center><a href="Noticia 1.html"><img src="https://images.milenio.com/8ySL4pG-eL0jha1l1r85y0X-vuY=/942x532/uploads/media/2025/03/09/persona-sexo-masculina-perdio-vida.jpg" width="250" height="200" /></a></center>
+    <center>Los hechos ocurrieron al amanecer de este<br> domingo en la carretera Tampico-Valles, a<br> la altura de las calles Felipe Pescador y<br> Bordo de Proteccion, en la colonia Morelos.</center>
+</body>
+<br>
+<body>
+    <center><h3><p style="color: red;">Tampico reforzara recoleccion de basura por<br> aumento de desechos durante El Buen Fin</p></center></h3>
+    <center><a href="Noticia 1.html"><img src="https://voxpopulinoticias.com.mx/wp-content/uploads/2024/09/VOX-img-destacada-1265-x-675-px-2024-09-04T155659.251.jpg" width="250" height="200" /></a></center>
+    <center>La Secretaria de Servicios Publicos de Tampico aumentara el personal<br> de recoleccion de basura durante la segunda quincena de noviembre y<br> todo diciembre debido al aumento de desechos generado por "El Buen Fin"<br> y las fiestas de fin de año.</center>
+</body>
+<br>
+<body>
+    <center><h3><p style="color: red;">Joven muere tras caer de tirolesa en Tacambaro,<br> Michoacan; trabajadora se burla y la despiden</p></center></h3>
+    <center><a href="Noticia 3.html"><img src="https://images.milenio.com/EZV-DsW3UN_uYG4xsMSOuzGYvwk=/942x532/uploads/media/2025/03/11/proteccion-civil-municipal-hallo-malas.jpg" width="250" height="200" /></a></center>
+    <center>Un joven de 16 años murio despues de caer de una tirolesa en el municipio de Tacambaro,<br> Michoacan; una trabajadora del lugar fue despedida por burlarse del incidente.</center>
+</body>
+
+<svg viewBox="0 0 100 100" width="1980" height="50" style="background:#ffe87f">
+
+<center><a href="https://www.instagram.com/_angelcuack_/"><img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png" width="50" height="50"></a>
+<a href="https://x.com/ElAngelCuack"><img src="file:///D:/Twitter.png" width="50" height="50"></a>
+<br>
+<b>Numero Telefonico: 833-159-0571</b>
+<a href="correo:contactonegocioselangelcuack@gmail.com">Enviar mail.</a> contactonegocioselangelcuack@gmail.com</center>
+</svg>
 </html>
