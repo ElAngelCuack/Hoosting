@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<title> Noticias Tampico
+</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 5px;
+    }
+    #reloj {
+        font-size: 1em;
+        color: #333;
+    }
+</style>
+</head>
+
+<div id="reloj"></div>
+
+<script>
+    function actualizarReloj() {
+        const ahora = new Date();
+        const opcionesFecha = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const fecha = ahora.toLocaleDateString('es-ES', opcionesFecha);
+        const hora = ahora.toLocaleTimeString('es-ES');
+
+        document.getElementById('reloj').innerHTML = `${fecha}, ${hora}`;
+    }
+
+    setInterval(actualizarReloj, 1000); // Actualiza cada segundo
+    actualizarReloj(); // Llama a la función una vez al cargar la página
+</script>
+
+<svg viewBox="0 0 100 100" width="1980" height="55" style="background:#ffe87f">
+    
+    <div><img style="float:left;" src="https://media.istockphoto.com/id/165942883/es/vector/micr%C3%B3fono-vintage-semitono.jpg?s=612x612&w=0&k=20&c=YlLAxJ_cFbHQPEO8mVw5AHxMusrAMk_9Mp_NmLLKqIM=" width="50" height="50" /><center><h1>NOTICIAS</h1></center></div>
+</svg>
+<body bgcolor="#fff4c4"></body>
+<P></P>
+<search>
+    <center><form method="get" action="/search">
+        <input type="search" name="search-text" />
+        <button style="background-color:bisque">Buscar</button>
+    </form></center>
+</search>
+<body>
+    <center><h2>Joven muere tras caer de tirolesa en Tacámbaro,<br> Michoacán; trabajadora se burla y la despiden</center></h2>
+    <a href="Noticias.html"><img src="https://images.milenio.com/EZV-DsW3UN_uYG4xsMSOuzGYvwk=/942x532/uploads/media/2025/03/11/proteccion-civil-municipal-hallo-malas.jpg" width="500" height="400" /></a>
+    <center>Los hechos ocurrieron el fin de semana, donde la víctima identificada como Kevin Abdiel García sufrió un accidente, sin embargo,<br> pese a la atención médica y su traslado al Hospital Regional del IMSS, el adolescente murió el lunes 10 de marzo a causa de las lesiones.</center>
+    <p>La muerte del joven causó indignación entre la población, también generó molestia por las declaraciones<br> de la entonces directora de Turismo Municipal, Melina Pérez Vélez, quien bromeó con la tragedia.
+    <p>"Me van a meter al bote güey, porque se cayó el de la tirolesa", dijo la funcionaria en un video que se difundió en redes<br> sociales y del que se presume se grabó en estado de ebriedad.
+    <p>Este 11 de marzo, el alcalde Salvador Bastida Gaona informó que fue destituida del cargo. "Tuvimos que relevar del<br> cargo a la directora, realmente hay acciones que no se justifican".
+    <br>Así también, reconoció que la tirolesa ubicada en la localidad de La Laguna, no estaba en óptimas condiciones. Incluso,<br> comentó que por parte del Protección Civil Municipal se elaboró un dictamen que revelaba las malas condiciones del atractivo.
+    
+</body>
+<svg viewBox="0 0 100 100" width="1980" height="50" style="background:#ffe87f">
+
+    <center><a href="https://www.instagram.com/_angelcuack_/"><img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png" width="50" height="50"></a>
+    <a href="https://x.com/ElAngelCuack"><img src="file:///D:/Twitter.png" width="50" height="50"></a>
+    <br>
+    <b>Numero Telefonico: 833-159-0571</b>
+    <a href="correo:contactonegocioselangelcuack@gmail.com">Enviar mail.</a> contactonegocioselangelcuack@gmail.com</center>
+</svg>
